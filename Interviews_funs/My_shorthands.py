@@ -5,18 +5,18 @@ import numpy as np
 class My_code:
     def Swapping(self,x,y):
         print('Entered x is  and y values are:',x,'and',y)
-        x,y=y,x        
+        x,y = y,x        
         print('Changed x and y values are:',x ,'and',y)
 
     def Factorial(self,num):
-        fact=1
+        fact = 1
         for i in range(num,1,-1):
-            fact=fact*i
+            fact = fact*i
         print("Factorial of ",num,"is",fact)
 
     def Fibonacci_sum(self,num):
-        fno,sno=0,1
-        res=fno+sno
+        fno,sno = 0,1
+        res = fno + sno
         print(fno)
         print(sno)
         while res <num:
@@ -81,6 +81,7 @@ class My_code:
 
 
 object1=My_code()
-object1.Swapping(14,17)
-object1.Factorial(5)
+# object1.Swapping(14,17)
+# object1.Factorial(5)
 object1.Count_vowels('Iranna Hanapur')
+object1.Removing_duplicates([1,2.3,4,5,6,6,6])
