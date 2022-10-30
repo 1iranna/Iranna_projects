@@ -81,6 +81,6 @@ class My_code:
 
 
 object1=My_code()
-object1.Swapping(14,17)
-object1.Factorial(5)
+# object1.Swapping(14,17)
+# object1.Factorial(5)
 object1.Count_vowels('Iranna Hanapur')
